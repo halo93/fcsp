@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
   def show
     if valid_page?
-      render template: "pages/#{params[:page]}"
+      render "pages/#{params[:page]}"
     else
       render_404
     end

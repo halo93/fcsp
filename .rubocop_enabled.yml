@@ -366,7 +366,7 @@ Style/RedundantReturn:
   Enabled: true
 
 Style/RescueModifier:
-  Description: "Avoid using rescue in its modifier form."
+  Description: "Avoid using rescue in its modifier forms."
   Enabled: true
 
 Style/SelfAssignment:

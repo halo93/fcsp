@@ -14,4 +14,8 @@ class User < ApplicationRecord
   has_many :courses, through: :course_members
   has_many :education_projects, through: :education_project_members, source: :project
   has_many :education_user_groups, class_name: Education::UserGroup.name
+  has_many :employees, dependent: :destroy
+  has_many :companies, through: :employees, dependent: :destroy
+  has_many :user_groups, dependent: :destroy
+  has_many :groups, through: :user_groups
 end
