@@ -3,4 +3,5 @@ class Image < ApplicationRecord
     optional: true
 
   mount_uploader :picture, PictureUploader
+  mount_uploader :url, ImageUploader
 end
