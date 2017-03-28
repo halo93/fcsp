@@ -80,6 +80,7 @@ en:
         team_introduction_recruitment: "Team Introduction Recruiment"
         submit: "Submit"
       not_found: "Team Introduction not found"
+      success: "Successfully added team introduction"
     dashboards:
       index:
         title: "Company"
